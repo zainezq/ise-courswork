@@ -1,0 +1,558 @@
+
+> System: batlik, Dataset: strawberry.csv
+Average MAPE: 0.02
+Average MAE: 0.04
+Average RMSE: 0.04
+Average R²: 0.98
+
+> System: batlik, Dataset: corona.csv
+Average MAPE: 0.03
+Average MAE: 0.04
+Average RMSE: 0.06
+Average R²: 0.98
+
+> System: batlik, Dataset: village.csv
+Average MAPE: 0.03
+Average MAE: 0.11
+Average RMSE: 0.26
+Average R²: 0.99
+
+> System: batlik, Dataset: jelly.csv
+Average MAPE: 0.02
+Average MAE: 0.04
+Average RMSE: 0.06
+Average R²: 0.99
+
+> System: batlik, Dataset: cubus.csv
+Average MAPE: 0.02
+Average MAE: 0.10
+Average RMSE: 0.13
+Average R²: 0.98
+
+> System: batlik, Dataset: flame.csv
+Average MAPE: 0.02
+Average MAE: 0.03
+Average RMSE: 0.04
+Average R²: 0.99
+
+> System: batlik, Dataset: france.csv
+Average MAPE: 0.02
+Average MAE: 0.07
+Average RMSE: 0.09
+Average R²: 0.99
+
+> System: batlik, Dataset: cranium.csv
+Average MAPE: 0.02
+Average MAE: 0.04
+Average RMSE: 0.05
+Average R²: 0.99
+
+> System: batlik, Dataset: mandelbrot.csv
+Average MAPE: 0.02
+Average MAE: 0.02
+Average RMSE: 0.03
+Average R²: 0.96
+
+> System: batlik, Dataset: karte.csv
+Average MAPE: 0.02
+Average MAE: 0.22
+Average RMSE: 0.29
+Average R²: 0.99
+
+> System: batlik, Dataset: frisco.csv
+Average MAPE: 0.03
+Average MAE: 0.13
+Average RMSE: 0.17
+Average R²: 0.96
+
+> System: dconvert, Dataset: svg-small.csv
+Average MAPE: 0.02
+Average MAE: 0.01
+Average RMSE: 0.02
+Average R²: 0.90
+
+> System: dconvert, Dataset: svg-large.csv
+Average MAPE: 0.02
+Average MAE: 0.03
+Average RMSE: 0.04
+Average R²: 0.00
+
+> System: dconvert, Dataset: png-medium.csv
+Average MAPE: 0.02
+Average MAE: 0.02
+Average RMSE: 0.02
+Average R²: 0.94
+
+> System: dconvert, Dataset: jpeg-medium.csv
+Average MAPE: 0.02
+Average MAE: 0.03
+Average RMSE: 0.05
+Average R²: 0.99
+
+> System: dconvert, Dataset: psd-medium.csv
+Average MAPE: 0.02
+Average MAE: 0.03
+Average RMSE: 0.04
+Average R²: 0.96
+
+> System: dconvert, Dataset: svg-medium.csv
+Average MAPE: 0.02
+Average MAE: 0.03
+Average RMSE: 0.03
+Average R²: 0.39
+
+> System: dconvert, Dataset: png-large.csv
+Average MAPE: 0.02
+Average MAE: 0.05
+Average RMSE: 0.07
+Average R²: 0.99
+
+> System: dconvert, Dataset: psd-small.csv
+Average MAPE: 0.03
+Average MAE: 0.02
+Average RMSE: 0.02
+Average R²: 0.68
+
+> System: dconvert, Dataset: psd-large.csv
+Average MAPE: 0.01
+Average MAE: 0.53
+Average RMSE: 0.87
+Average R²: 1.00
+
+> System: dconvert, Dataset: png-small.csv
+Average MAPE: 0.03
+Average MAE: 0.01
+Average RMSE: 0.02
+Average R²: 0.69
+
+> System: dconvert, Dataset: jpeg-small.csv
+Average MAPE: 0.03
+Average MAE: 0.01
+Average RMSE: 0.02
+Average R²: 0.57
+
+> System: dconvert, Dataset: jpeg-large.csv
+Average MAPE: 0.02
+Average MAE: 0.08
+Average RMSE: 0.12
+Average R²: 0.99
+
+> System: h2, Dataset: tpcc-8.csv
+Average MAPE: 0.20
+Average MAE: 107.58
+Average RMSE: 163.79
+Average R²: 0.15
+
+> System: h2, Dataset: voter-2.csv
+Average MAPE: 0.02
+Average MAE: 496.86
+Average RMSE: 702.90
+Average R²: 0.99
+
+> System: h2, Dataset: ycsb-2400.csv
+Average MAPE: 0.04
+Average MAE: 529.65
+Average RMSE: 674.58
+Average R²: 0.90
+
+> System: h2, Dataset: smallbank-10.csv
+Average MAPE: 0.02
+Average MAE: 267.47
+Average RMSE: 363.26
+Average R²: 0.98
+
+> System: h2, Dataset: voter-16.csv
+Average MAPE: 0.02
+Average MAE: 510.96
+Average RMSE: 690.88
+Average R²: 0.99
+
+> System: h2, Dataset: tpcc-2.csv
+Average MAPE: 0.03
+Average MAE: 19.70
+Average RMSE: 24.67
+Average R²: 0.91
+
+> System: h2, Dataset: ycsb-600.csv
+Average MAPE: 0.03
+Average MAE: 683.87
+Average RMSE: 901.68
+Average R²: 0.92
+
+> System: h2, Dataset: smallbank-1.csv
+Average MAPE: 0.04
+Average MAE: 685.18
+Average RMSE: 884.35
+Average R²: 0.92
+
+> System: jump3r, Dataset: beethoven.wav.csv
+Average MAPE: 0.16
+Average MAE: 1.66
+Average RMSE: 2.32
+Average R²: 0.84
+
+> System: jump3r, Dataset: dual-channel.wav.csv
+Average MAPE: 0.15
+Average MAE: 0.44
+Average RMSE: 0.63
+Average R²: 0.85
+
+> System: jump3r, Dataset: sweep.wav.csv
+Average MAPE: 0.09
+Average MAE: 0.05
+Average RMSE: 0.07
+Average R²: 0.88
+
+> System: jump3r, Dataset: single-channel.wav.csv
+Average MAPE: 0.14
+Average MAE: 0.26
+Average RMSE: 0.35
+Average R²: 0.83
+
+> System: jump3r, Dataset: speech.wav.csv
+Average MAPE: 0.14
+Average MAE: 0.62
+Average RMSE: 0.84
+Average R²: 0.91
+
+> System: jump3r, Dataset: helix.wav.csv
+Average MAPE: 0.16
+Average MAE: 0.84
+Average RMSE: 1.26
+Average R²: 0.82
+
+> System: kanzi, Dataset: large.csv
+Average MAPE: 0.05
+Average MAE: 0.15
+Average RMSE: 0.29
+Average R²: 1.00
+
+> System: kanzi, Dataset: deepfield.csv
+Average MAPE: 0.42
+Average MAE: 0.75
+Average RMSE: 1.43
+Average R²: 1.00
+
+> System: kanzi, Dataset: vmlinux.csv
+Average MAPE: 0.36
+Average MAE: 7.24
+Average RMSE: 20.30
+Average R²: 1.00
+
+> System: kanzi, Dataset: misc.csv
+Average MAPE: 0.04
+Average MAE: 0.03
+Average RMSE: 0.06
+Average R²: 1.00
+
+> System: kanzi, Dataset: ambivert.csv
+Average MAPE: 0.09
+Average MAE: 0.89
+Average RMSE: 1.52
+Average R²: 1.00
+
+> System: kanzi, Dataset: artificl.csv
+Average MAPE: 0.04
+Average MAE: 0.02
+Average RMSE: 0.04
+Average R²: 0.99
+
+> System: kanzi, Dataset: silesia.csv
+Average MAPE: 0.09
+Average MAE: 2.58
+Average RMSE: 5.26
+Average R²: 1.00
+
+> System: kanzi, Dataset: fannie_mae_500k.csv
+Average MAPE: 0.09
+Average MAE: 0.96
+Average RMSE: 2.26
+Average R²: 1.00
+
+> System: kanzi, Dataset: enwik8.csv
+Average MAPE: 0.10
+Average MAE: 1.45
+Average RMSE: 2.97
+Average R²: 1.00
+
+> System: lrzip, Dataset: deepfield.tar.csv
+Average MAPE: 1.56
+Average MAE: 14.53
+Average RMSE: 22.92
+Average R²: -0.07
+
+> System: lrzip, Dataset: vmlinux-5.10.tar.csv
+Average MAPE: 0.79
+Average MAE: 4.73
+Average RMSE: 7.15
+Average R²: -0.09
+
+> System: lrzip, Dataset: artificl.tar.csv
+Average MAPE: 14.23
+Average MAE: 1.33
+Average RMSE: 1.43
+Average R²: 0.03
+
+> System: lrzip, Dataset: large.tar.csv
+Average MAPE: 1.04
+Average MAE: 2.38
+Average RMSE: 3.20
+Average R²: -0.07
+
+> System: lrzip, Dataset: misc.tar.csv
+Average MAPE: 2.89
+Average MAE: 1.37
+Average RMSE: 1.53
+Average R²: -0.02
+
+> System: lrzip, Dataset: uiq2-4.bin.csv
+Average MAPE: 1.21
+Average MAE: 7.17
+Average RMSE: 11.06
+Average R²: -0.09
+
+> System: lrzip, Dataset: ambivert.wav.tar.csv
+Average MAPE: 1.58
+Average MAE: 14.71
+Average RMSE: 23.22
+Average R²: -0.06
+
+> System: lrzip, Dataset: enwik8.tar.csv
+Average MAPE: 1.07
+Average MAE: 19.65
+Average RMSE: 28.48
+Average R²: -0.09
+
+> System: lrzip, Dataset: uiq2-8.bin.csv
+Average MAPE: 1.45
+Average MAE: 15.06
+Average RMSE: 22.28
+Average R²: -0.08
+
+> System: lrzip, Dataset: fannie_mae_500k.tar.csv
+Average MAPE: 0.12
+Average MAE: 5.29
+Average RMSE: 7.90
+Average R²: -0.10
+
+> System: lrzip, Dataset: uiq-32.bin.csv
+Average MAPE: 2.06
+Average MAE: 55.13
+Average RMSE: 77.63
+Average R²: -0.11
+
+> System: lrzip, Dataset: uiq2-16.bin.csv
+Average MAPE: 1.87
+Average MAE: 29.74
+Average RMSE: 42.87
+Average R²: -0.11
+
+> System: lrzip, Dataset: silesia.tar.csv
+Average MAPE: 1.25
+Average MAE: 32.95
+Average RMSE: 47.49
+Average R²: -0.09
+
+> System: x264, Dataset: Netflix_Crosswalk_4096x2160_60fps_10bit_420_short.y4m.csv
+Average MAPE: 0.13
+Average MAE: 3.52
+Average RMSE: 7.46
+Average R²: 0.93
+
+> System: x264, Dataset: sd_city_4cif_short.y4m.csv
+Average MAPE: 0.14
+Average MAE: 0.60
+Average RMSE: 1.27
+Average R²: 0.92
+
+> System: x264, Dataset: riverbed_1080p25_short.y4m.csv
+Average MAPE: 0.14
+Average MAE: 2.86
+Average RMSE: 6.08
+Average R²: 0.92
+
+> System: x264, Dataset: blue_sky_1080p25_short.y4m.csv
+Average MAPE: 0.14
+Average MAE: 1.31
+Average RMSE: 2.73
+Average R²: 0.93
+
+> System: x264, Dataset: sd_crew_cif_short.y4m.csv
+Average MAPE: 0.12
+Average MAE: 0.10
+Average RMSE: 0.21
+Average R²: 0.93
+
+> System: x264, Dataset: sd_bridge_close_cif_short.y4m.csv
+Average MAPE: 0.10
+Average MAE: 0.06
+Average RMSE: 0.11
+Average R²: 0.95
+
+> System: x264, Dataset: sintel_trailer_2k_720p24_short.y4m.csv
+Average MAPE: 0.11
+Average MAE: 0.16
+Average RMSE: 0.33
+Average R²: 0.94
+
+> System: x264, Dataset: pedestrian_area_1080p25_short.y4m.csv
+Average MAPE: 0.14
+Average MAE: 1.49
+Average RMSE: 3.13
+Average R²: 0.93
+
+> System: x264, Dataset: Johnny_1280x720_60_short.y4m.csv
+Average MAPE: 0.14
+Average MAE: 1.03
+Average RMSE: 2.26
+Average R²: 0.92
+
+> System: xz, Dataset: deepfield.tar.csv
+Average MAPE: 0.02
+Average MAE: 0.35
+Average RMSE: 0.66
+Average R²: 1.00
+
+> System: xz, Dataset: vmlinux-5.10.tar.csv
+Average MAPE: 0.02
+Average MAE: 0.15
+Average RMSE: 0.23
+Average R²: 1.00
+
+> System: xz, Dataset: artificl.tar.csv
+Average MAPE: 0.30
+Average MAE: 0.01
+Average RMSE: 0.01
+Average R²: 0.19
+
+> System: xz, Dataset: large.tar.csv
+Average MAPE: 0.02
+Average MAE: 0.10
+Average RMSE: 0.15
+Average R²: 1.00
+
+> System: xz, Dataset: misc.tar.csv
+Average MAPE: 0.04
+Average MAE: 0.02
+Average RMSE: 0.04
+Average R²: 0.97
+
+> System: xz, Dataset: uiq2-4.bin.csv
+Average MAPE: 0.02
+Average MAE: 0.26
+Average RMSE: 0.53
+Average R²: 1.00
+
+> System: xz, Dataset: ambivert.wav.tar.csv
+Average MAPE: 0.03
+Average MAE: 0.56
+Average RMSE: 1.42
+Average R²: 1.00
+
+> System: xz, Dataset: enwik8.tar.csv
+Average MAPE: 0.11
+Average MAE: 10.06
+Average RMSE: 30.96
+Average R²: 0.95
+
+> System: xz, Dataset: uiq2-8.bin.csv
+Average MAPE: 0.07
+Average MAE: 2.12
+Average RMSE: 6.11
+Average R²: 0.95
+
+> System: xz, Dataset: fannie_mae_500k.tar.csv
+Average MAPE: 0.02
+Average MAE: 0.89
+Average RMSE: 1.52
+Average R²: 1.00
+
+> System: xz, Dataset: uiq-32.bin.csv
+Average MAPE: 0.07
+Average MAE: 10.24
+Average RMSE: 28.53
+Average R²: 0.97
+
+> System: xz, Dataset: uiq2-16.bin.csv
+Average MAPE: 0.07
+Average MAE: 4.88
+Average RMSE: 14.72
+Average R²: 0.95
+
+> System: xz, Dataset: silesia.tar.csv
+Average MAPE: 0.02
+Average MAE: 2.48
+Average RMSE: 5.24
+Average R²: 1.00
+
+> System: z3, Dataset: LRA_formula_277.smt2.csv
+Average MAPE: 0.00
+Average MAE: 0.01
+Average RMSE: 0.01
+Average R²: 1.00
+
+> System: z3, Dataset: QF_LRA_clocksynchro_7clocks.worst_case_skew.induct.smt2.csv
+Average MAPE: 0.00
+Average MAE: 0.02
+Average RMSE: 0.02
+Average R²: 1.00
+
+> System: z3, Dataset: QF_AUFLIA_swap_t1_pp_nf_ai_00010_002.cvc.smt2.csv
+Average MAPE: 0.00
+Average MAE: 0.03
+Average RMSE: 0.05
+Average R²: 1.00
+
+> System: z3, Dataset: QF_AUFBV_891_sqlite3.smt2.csv
+Average MAPE: 0.06
+Average MAE: 0.46
+Average RMSE: 1.02
+Average R²: 1.00
+
+> System: z3, Dataset: QF_UFLIA_xs_23_43.smt2.csv
+Average MAPE: 0.01
+Average MAE: 0.19
+Average RMSE: 0.36
+Average R²: 1.00
+
+> System: z3, Dataset: QF_UF_PEQ018_size6.smt2.csv
+Average MAPE: 0.01
+Average MAE: 0.34
+Average RMSE: 0.62
+Average R²: 1.00
+
+> System: z3, Dataset: QF_BV_bench_3176.smt2.csv
+Average MAPE: 0.07
+Average MAE: 2.00
+Average RMSE: 3.93
+Average R²: 1.00
+
+> System: z3, Dataset: QF_RDL_orb08_888.smt2.csv
+Average MAPE: 0.00
+Average MAE: 0.04
+Average RMSE: 0.05
+Average R²: 1.00
+
+> System: z3, Dataset: QF_BV_bench_935.smt2.csv
+Average MAPE: 0.05
+Average MAE: 1.10
+Average RMSE: 2.36
+Average R²: 1.00
+
+> System: z3, Dataset: QF_LIA_tightrhombus.csv
+Average MAPE: 0.01
+Average MAE: 0.01
+Average RMSE: 0.02
+Average R²: 1.00
+
+> System: z3, Dataset: QF_NRA_hong_9.smt2.csv
+Average MAPE: 0.00
+Average MAE: 0.01
+Average RMSE: 0.02
+Average R²: 1.00
+
+> System: z3, Dataset: AUFNIRA_z3.637557.smt2.csv
+Average MAPE: 0.00
+Average MAE: 0.29
+Average RMSE: 0.56
+Average R²: 1.00

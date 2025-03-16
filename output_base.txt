@@ -1,0 +1,558 @@
+
+> System: batlik, Dataset: strawberry.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.05
+Average MAE: 0.09
+Average RMSE: 0.13
+Average R²: 0.83
+
+> System: batlik, Dataset: corona.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.12
+Average MAE: 0.18
+Average RMSE: 0.26
+Average R²: 0.69
+
+> System: batlik, Dataset: village.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.57
+Average MAE: 1.79
+Average RMSE: 2.44
+Average R²: 0.55
+
+> System: batlik, Dataset: jelly.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.17
+Average MAE: 0.32
+Average RMSE: 0.44
+Average R²: 0.58
+
+> System: batlik, Dataset: cubus.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.04
+Average MAE: 0.24
+Average RMSE: 0.34
+Average R²: 0.90
+
+> System: batlik, Dataset: flame.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.03
+Average MAE: 0.06
+Average RMSE: 0.08
+Average R²: 0.95
+
+> System: batlik, Dataset: france.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.04
+Average MAE: 0.15
+Average RMSE: 0.20
+Average R²: 0.96
+
+> System: batlik, Dataset: cranium.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.03
+Average MAE: 0.07
+Average RMSE: 0.10
+Average R²: 0.97
+
+> System: batlik, Dataset: mandelbrot.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.05
+Average MAE: 0.06
+Average RMSE: 0.09
+Average R²: 0.70
+
+> System: batlik, Dataset: karte.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.15
+Average MAE: 1.49
+Average RMSE: 1.90
+Average R²: 0.78
+
+> System: batlik, Dataset: frisco.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.05
+Average MAE: 0.25
+Average RMSE: 0.34
+Average R²: 0.86
+
+> System: dconvert, Dataset: svg-small.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.04
+Average MAE: 0.02
+Average RMSE: 0.03
+Average R²: 0.74
+
+> System: dconvert, Dataset: svg-large.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.02
+Average MAE: 0.03
+Average RMSE: 0.04
+Average R²: -0.00
+
+> System: dconvert, Dataset: png-medium.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.04
+Average MAE: 0.02
+Average RMSE: 0.03
+Average R²: 0.88
+
+> System: dconvert, Dataset: jpeg-medium.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.10
+Average MAE: 0.18
+Average RMSE: 0.24
+Average R²: 0.79
+
+> System: dconvert, Dataset: psd-medium.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.05
+Average MAE: 0.07
+Average RMSE: 0.09
+Average R²: 0.77
+
+> System: dconvert, Dataset: svg-medium.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.02
+Average MAE: 0.03
+Average RMSE: 0.03
+Average R²: 0.38
+
+> System: dconvert, Dataset: png-large.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.09
+Average MAE: 0.22
+Average RMSE: 0.28
+Average R²: 0.82
+
+> System: dconvert, Dataset: psd-small.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.04
+Average MAE: 0.02
+Average RMSE: 0.02
+Average R²: 0.65
+
+> System: dconvert, Dataset: psd-large.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.01
+Average MAE: 0.53
+Average RMSE: 0.85
+Average R²: 1.00
+
+> System: dconvert, Dataset: png-small.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.03
+Average MAE: 0.01
+Average RMSE: 0.02
+Average R²: 0.64
+
+> System: dconvert, Dataset: jpeg-small.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.04
+Average MAE: 0.02
+Average RMSE: 0.02
+Average R²: 0.43
+
+> System: dconvert, Dataset: jpeg-large.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.13
+Average MAE: 0.42
+Average RMSE: 0.57
+Average R²: 0.79
+
+> System: h2, Dataset: tpcc-8.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.20
+Average MAE: 109.56
+Average RMSE: 165.10
+Average R²: 0.16
+
+> System: h2, Dataset: voter-2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.08
+Average MAE: 2523.00
+Average RMSE: 2803.66
+Average R²: 0.89
+
+> System: h2, Dataset: ycsb-2400.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.09
+Average MAE: 1261.90
+Average RMSE: 1548.10
+Average R²: 0.45
+
+> System: h2, Dataset: smallbank-10.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.05
+Average MAE: 633.98
+Average RMSE: 764.34
+Average R²: 0.90
+
+> System: h2, Dataset: voter-16.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.08
+Average MAE: 2429.21
+Average RMSE: 2708.25
+Average R²: 0.89
+
+> System: h2, Dataset: tpcc-2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.04
+Average MAE: 30.38
+Average RMSE: 37.51
+Average R²: 0.80
+
+> System: h2, Dataset: ycsb-600.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.08
+Average MAE: 1686.90
+Average RMSE: 2096.59
+Average R²: 0.57
+
+> System: h2, Dataset: smallbank-1.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.06
+Average MAE: 1117.19
+Average RMSE: 1342.34
+Average R²: 0.82
+
+> System: jump3r, Dataset: beethoven.wav.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.25
+Average MAE: 2.24
+Average RMSE: 2.89
+Average R²: 0.75
+
+> System: jump3r, Dataset: dual-channel.wav.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.23
+Average MAE: 0.60
+Average RMSE: 0.83
+Average R²: 0.74
+
+> System: jump3r, Dataset: sweep.wav.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.12
+Average MAE: 0.07
+Average RMSE: 0.09
+Average R²: 0.83
+
+> System: jump3r, Dataset: single-channel.wav.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.19
+Average MAE: 0.32
+Average RMSE: 0.42
+Average R²: 0.76
+
+> System: jump3r, Dataset: speech.wav.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.20
+Average MAE: 0.80
+Average RMSE: 1.01
+Average R²: 0.86
+
+> System: jump3r, Dataset: helix.wav.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.24
+Average MAE: 1.06
+Average RMSE: 1.45
+Average R²: 0.76
+
+> System: kanzi, Dataset: large.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.39
+Average MAE: 4.38
+Average RMSE: 6.89
+Average R²: 0.38
+
+> System: kanzi, Dataset: deepfield.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 17.67
+Average MAE: 18.79
+Average RMSE: 29.05
+Average R²: 0.44
+
+> System: kanzi, Dataset: vmlinux.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 28.81
+Average MAE: 162.76
+Average RMSE: 220.94
+Average R²: 0.39
+
+> System: kanzi, Dataset: misc.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.46
+Average MAE: 0.40
+Average RMSE: 0.61
+Average R²: 0.49
+
+> System: kanzi, Dataset: ambivert.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.40
+Average MAE: 16.97
+Average RMSE: 27.66
+Average R²: 0.49
+
+> System: kanzi, Dataset: artificl.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.46
+Average MAE: 0.20
+Average RMSE: 0.29
+Average R²: 0.35
+
+> System: kanzi, Dataset: silesia.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 2.87
+Average MAE: 82.26
+Average RMSE: 129.55
+Average R²: 0.37
+
+> System: kanzi, Dataset: fannie_mae_500k.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 4.06
+Average MAE: 34.79
+Average RMSE: 53.90
+Average R²: 0.32
+
+> System: kanzi, Dataset: enwik8.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 2.59
+Average MAE: 39.53
+Average RMSE: 62.36
+Average R²: 0.38
+
+> System: lrzip, Dataset: deepfield.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.47
+Average MAE: 14.66
+Average RMSE: 24.62
+Average R²: -0.11
+
+> System: lrzip, Dataset: vmlinux-5.10.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.78
+Average MAE: 4.85
+Average RMSE: 7.38
+Average R²: -0.13
+
+> System: lrzip, Dataset: artificl.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 14.09
+Average MAE: 1.28
+Average RMSE: 1.44
+Average R²: -0.01
+
+> System: lrzip, Dataset: large.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.98
+Average MAE: 2.35
+Average RMSE: 3.11
+Average R²: -0.14
+
+> System: lrzip, Dataset: misc.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 2.73
+Average MAE: 1.28
+Average RMSE: 1.47
+Average R²: -0.04
+
+> System: lrzip, Dataset: uiq2-4.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.19
+Average MAE: 7.52
+Average RMSE: 11.92
+Average R²: -0.12
+
+> System: lrzip, Dataset: ambivert.wav.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.49
+Average MAE: 15.16
+Average RMSE: 25.55
+Average R²: -0.11
+
+> System: lrzip, Dataset: enwik8.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.04
+Average MAE: 19.54
+Average RMSE: 29.14
+Average R²: -0.11
+
+> System: lrzip, Dataset: uiq2-8.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.42
+Average MAE: 15.27
+Average RMSE: 23.35
+Average R²: -0.12
+
+> System: lrzip, Dataset: fannie_mae_500k.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.12
+Average MAE: 5.46
+Average RMSE: 8.14
+Average R²: -0.13
+
+> System: lrzip, Dataset: uiq-32.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.91
+Average MAE: 56.16
+Average RMSE: 85.19
+Average R²: -0.07
+
+> System: lrzip, Dataset: uiq2-16.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.73
+Average MAE: 30.54
+Average RMSE: 46.20
+Average R²: -0.10
+
+> System: lrzip, Dataset: silesia.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.18
+Average MAE: 33.22
+Average RMSE: 50.49
+Average R²: -0.10
+
+> System: x264, Dataset: Netflix_Crosswalk_4096x2160_60fps_10bit_420_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.79
+Average MAE: 8.70
+Average RMSE: 11.26
+Average R²: 0.84
+
+> System: x264, Dataset: sd_city_4cif_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.83
+Average MAE: 1.48
+Average RMSE: 1.90
+Average R²: 0.82
+
+> System: x264, Dataset: riverbed_1080p25_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.66
+Average MAE: 6.64
+Average RMSE: 8.78
+Average R²: 0.84
+
+> System: x264, Dataset: blue_sky_1080p25_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.79
+Average MAE: 3.13
+Average RMSE: 4.06
+Average R²: 0.84
+
+> System: x264, Dataset: sd_crew_cif_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.62
+Average MAE: 0.24
+Average RMSE: 0.32
+Average R²: 0.85
+
+> System: x264, Dataset: sd_bridge_close_cif_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.52
+Average MAE: 0.14
+Average RMSE: 0.18
+Average R²: 0.86
+
+> System: x264, Dataset: sintel_trailer_2k_720p24_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.52
+Average MAE: 0.37
+Average RMSE: 0.47
+Average R²: 0.89
+
+> System: x264, Dataset: pedestrian_area_1080p25_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.72
+Average MAE: 3.56
+Average RMSE: 4.61
+Average R²: 0.85
+
+> System: x264, Dataset: Johnny_1280x720_60_short.y4m.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.90
+Average MAE: 2.57
+Average RMSE: 3.35
+Average R²: 0.82
+
+> System: xz, Dataset: deepfield.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.62
+Average MAE: 5.59
+Average RMSE: 7.52
+Average R²: 0.69
+
+> System: xz, Dataset: vmlinux-5.10.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.28
+Average MAE: 1.83
+Average RMSE: 2.23
+Average R²: 0.75
+
+> System: xz, Dataset: artificl.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.29
+Average MAE: 0.01
+Average RMSE: 0.01
+Average R²: 0.22
+
+> System: xz, Dataset: large.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.44
+Average MAE: 1.82
+Average RMSE: 2.24
+Average R²: 0.66
+
+> System: xz, Dataset: misc.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.23
+Average MAE: 0.09
+Average RMSE: 0.12
+Average R²: 0.75
+
+> System: xz, Dataset: uiq2-4.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.62
+Average MAE: 4.20
+Average RMSE: 5.69
+Average R²: 0.63
+
+> System: xz, Dataset: ambivert.wav.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.40
+Average MAE: 13.08
+Average RMSE: 17.11
+Average R²: 0.65
+
+> System: xz, Dataset: enwik8.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 2.11
+Average MAE: 71.29
+Average RMSE: 93.05
+Average R²: 0.57
+
+> System: xz, Dataset: uiq2-8.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.84
+Average MAE: 11.59
+Average RMSE: 15.33
+Average R²: 0.63
+
+> System: xz, Dataset: fannie_mae_500k.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.95
+Average MAE: 29.96
+Average RMSE: 35.74
+Average R²: 0.62
+
+> System: xz, Dataset: uiq-32.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.25
+Average MAE: 71.07
+Average RMSE: 90.10
+Average R²: 0.65
+
+> System: xz, Dataset: uiq2-16.bin.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 1.10
+Average MAE: 31.80
+Average RMSE: 42.62
+Average R²: 0.62
+
+> System: xz, Dataset: silesia.tar.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.99
+Average MAE: 61.95
+Average RMSE: 78.10
+Average R²: 0.64
+
+> System: z3, Dataset: LRA_formula_277.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.11
+Average MAE: 0.32
+Average RMSE: 0.32
+Average R²: 0.92
+
+> System: z3, Dataset: QF_LRA_clocksynchro_7clocks.worst_case_skew.induct.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.06
+Average MAE: 0.74
+Average RMSE: 0.87
+Average R²: 0.95
+
+> System: z3, Dataset: QF_AUFLIA_swap_t1_pp_nf_ai_00010_002.cvc.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.13
+Average MAE: 0.92
+Average RMSE: 1.13
+Average R²: 0.92
+
+> System: z3, Dataset: QF_AUFBV_891_sqlite3.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 5.38
+Average MAE: 10.21
+Average RMSE: 13.86
+Average R²: 0.72
+
+> System: z3, Dataset: QF_UFLIA_xs_23_43.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.38
+Average MAE: 8.14
+Average RMSE: 9.77
+Average R²: 0.74
+
+> System: z3, Dataset: QF_UF_PEQ018_size6.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 10.10
+Average MAE: 158.84
+Average RMSE: 198.75
+Average R²: 0.50
+
+> System: z3, Dataset: QF_BV_bench_3176.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 10.88
+Average MAE: 133.15
+Average RMSE: 152.10
+Average R²: 0.60
+
+> System: z3, Dataset: QF_RDL_orb08_888.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.03
+Average MAE: 0.27
+Average RMSE: 0.33
+Average R²: 0.98
+
+> System: z3, Dataset: QF_BV_bench_935.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 18.80
+Average MAE: 93.15
+Average RMSE: 96.85
+Average R²: 0.64
+
+> System: z3, Dataset: QF_LIA_tightrhombus.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.70
+Average MAE: 0.59
+Average RMSE: 0.80
+Average R²: 0.90
+
+> System: z3, Dataset: QF_NRA_hong_9.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 0.00
+Average MAE: 0.01
+Average RMSE: 0.02
+Average R²: 1.00
+
+> System: z3, Dataset: AUFNIRA_z3.637557.smt2.csv, Training data fraction: 0.7, Number of repeats: 3
+Average MAPE: 7.65
+Average MAE: 88.11
+Average RMSE: 99.32
+Average R²: 0.67
