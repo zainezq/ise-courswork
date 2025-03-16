@@ -1,0 +1,83 @@
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        System & Baseline MAPE & Proposed MAPE & Improvement (\%) \\
+        \hline
+        batlik & 0.12 & 0.02 & 80.77 \\
+        dconvert & 0.05 & 0.02 & 58.19 \\
+        h2 & 0.09 & 0.05 & 41.18 \\
+        jump3r & 0.20 & 0.14 & 31.71 \\
+        kanzi & 6.63 & 0.14 & 97.86 \\
+        lrzip & 1.47 & 1.30 & 11.56 \\
+        x264 & 0.70 & 0.13 & 81.47 \\
+        xz & 0.86 & 0.06 & 92.72 \\
+        z3 & 4.52 & 0.02 & 99.61 \\
+        \hline
+    \end{tabular}
+    \caption{Comparison of MAPE between Linear Regression and Proposed Model}
+    \label{tab:mape}
+\end{table}
+--------------------------------------------------------------------------------
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        System & Baseline MAE & Proposed MAE & Improvement (\%) \\
+        \hline
+        batlik & 0.43 & 0.08 & 82.13 \\
+        dconvert & 0.14 & 0.07 & 49.73 \\
+        h2 & 1224.02 & 412.66 & 66.29 \\
+        jump3r & 0.85 & 0.65 & 23.97 \\
+        kanzi & 40.01 & 1.56 & 96.09 \\
+        lrzip & 14.66 & 8.46 & 42.33 \\
+        x264 & 2.27 & 0.95 & 58.03 \\
+        xz & 23.41 & 2.47 & 89.44 \\
+        z3 & 41.20 & 0.38 & 99.09 \\
+        \hline
+    \end{tabular}
+    \caption{Comparison of MAE between Linear Regression and Proposed Model}
+    \label{tab:mae}
+\end{table}
+--------------------------------------------------------------------------------
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        System & Baseline RMSE & Proposed RMSE & Improvement (\%) \\
+        \hline
+        batlik & 0.57 & 0.11 & 80.70 \\
+        dconvert & 0.20 & 0.11 & 44.75 \\
+        h2 & 1433.24 & 550.76 & 61.57 \\
+        jump3r & 1.11 & 0.91 & 18.24 \\
+        kanzi & 59.03 & 3.79 & 93.58 \\
+        lrzip & 24.62 & 13.06 & 46.95 \\
+        x264 & 2.96 & 2.01 & 31.90 \\
+        xz & 29.99 & 6.93 & 76.88 \\
+        z3 & 47.84 & 0.75 & 98.43 \\
+        \hline
+    \end{tabular}
+    \caption{Comparison of RMSE between Linear Regression and Proposed Model}
+    \label{tab:rmse}
+\end{table}
+--------------------------------------------------------------------------------
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        System & Baseline R2 & Proposed R2 & Improvement (\%) \\
+        \hline
+        batlik & 0.80 & 0.98 & 23.15 \\
+        dconvert & 0.72 & 0.76 & 5.72 \\
+        h2 & 0.69 & 0.84 & 23.36 \\
+        jump3r & 0.78 & 0.85 & 9.15 \\
+        kanzi & 0.40 & 1.00 & 149.03 \\
+        lrzip & 0.84 & 0.48 & -42.86 \\
+        x264 & 0.85 & 0.93 & 9.90 \\
+        xz & 0.62 & 0.92 & 48.27 \\
+        z3 & 0.79 & 1.00 & 25.79 \\
+        \hline
+    \end{tabular}
+    \caption{Comparison of R² Score between Linear Regression and Proposed Model}
+    \label{tab:r2}
+\end{table}

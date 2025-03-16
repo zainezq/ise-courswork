@@ -4,8 +4,7 @@ import pandas as pd
 # File paths
 baseline_file = "../output_base.txt"
 proposed_file = "../output_proposed.txt"
-output_file = "output_tables.tex"  # Output LaTeX file
-
+output_file = "output_full_tables.tex"  # Output LaTeX file
 
 # Function to parse the input files and extract metrics
 def parse_file(file_path):
@@ -25,10 +24,11 @@ def parse_file(file_path):
     for match in pattern.finditer(content):
         data.append({
             "System": match.group("system"),
+            "Dataset": match.group("dataset"),
             "MAPE": float(match.group("mape")),
             "MAE": float(match.group("mae")),
             "RMSE": float(match.group("rmse")),
-            "R²": float(match.group("r2")),
+            "R2": float(match.group("r2")),
         })
     
     return pd.DataFrame(data)
@@ -37,22 +37,14 @@ def parse_file(file_path):
 df_baseline = parse_file(baseline_file)
 df_proposed = parse_file(proposed_file)
 
-# Group by system and compute the mean
-df_baseline_avg = df_baseline.groupby("System", as_index=False).mean()
-df_proposed_avg = df_proposed.groupby("System", as_index=False).mean()
-
-# Merge data based on system
-df_comparison = df_baseline_avg.merge(df_proposed_avg, on="System", suffixes=("_Baseline", "_Proposed"))
+# Merge data based on system and dataset
+df_comparison = df_baseline.merge(df_proposed, on=["System", "Dataset"], suffixes=("_Baseline", "_Proposed"))
 
 # Calculate improvement
 df_comparison["MAPE_Improvement"] = ((df_comparison["MAPE_Baseline"] - df_comparison["MAPE_Proposed"]) / df_comparison["MAPE_Baseline"]) * 100
 df_comparison["MAE_Improvement"] = ((df_comparison["MAE_Baseline"] - df_comparison["MAE_Proposed"]) / df_comparison["MAE_Baseline"]) * 100
 df_comparison["RMSE_Improvement"] = ((df_comparison["RMSE_Baseline"] - df_comparison["RMSE_Proposed"]) / df_comparison["RMSE_Baseline"]) * 100
-df_comparison.rename(columns={"R²_Baseline": "R2_Baseline", "R²_Proposed": "R2_Proposed", "R²_Improvement": "R2_Improvement"}, inplace=True)
 df_comparison["R2_Improvement"] = ((df_comparison["R2_Proposed"] - df_comparison["R2_Baseline"]) / df_comparison["R2_Baseline"]) * 100
-
-# Select only 9 unique systems
-df_comparison = df_comparison.head(9)
 
 # Function to generate LaTeX table
 def generate_latex_table(df, metric, caption, label):
@@ -74,6 +66,7 @@ def generate_latex_table(df, metric, caption, label):
         f"    \\caption{{{caption}}}" "\n"
         f"    \\label{{{label}}}" "\n"
         r"\end{table}"
+        "\n\n"
     )
     
     return latex_code
@@ -95,5 +88,3 @@ with open(output_file, "w") as f:
     f.write(latex_r2)
 
 print(f"LaTeX tables written to {output_file}")
-
-
