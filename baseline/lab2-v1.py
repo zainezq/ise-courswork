@@ -11,7 +11,7 @@ def main():
     num_repeats = 5  # More repetitions for stability
     train_frac = 0.7
     random_seed = 42  # Fixed for reproducibility
-    output_file = "results1.txt"
+    output_file = "output_proposed.txt"
 
     param_grid = {
         'n_estimators': [50, 100, 200],
